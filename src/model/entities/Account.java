@@ -12,7 +12,7 @@ public class Account {
     public Account(Integer number, String holder, Double balance, Double withdrawLimit) {
         this.number = number;
         this.holder = holder;
-        this.balance = balance;
+        deposit(balance);
         this.withdrawLimit = withdrawLimit;
     }
 
